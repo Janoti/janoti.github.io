@@ -4,21 +4,21 @@
   "parameters": {
     "spClientId": {
       "type": "string",
-      "defaultValue": "66199a61-9c96-4cb4-a4c6-c6d063df77ef",
+      "defaultValue": "b159ec9d-77b4-41b3-9823-d1df89e7a690",
       "metadata": {
         "description": "Service Principal Client ID used by Jenkins and Azure Container Service (AKS)."
       }
     },
     "spClientSecret": {
       "type": "securestring",
-      "defaultValue": "66199a61-9c96-4cb4-a4c6-c6d063df77ef",
+      "defaultValue": "d3296b10-1668-47d1-b552-b57c10414db9",
       "metadata": {
         "description": "Service Principal Client Secret used by Jenkins and Azure Container Service(AKS)."
       }
     },
     "linuxAdminUsername": {
       "type": "string",
-      "defaultValue": "admin",
+      "defaultValue": "adilson",
       "metadata": {
         "description": "User name for the Linux Virtual Machines (Jenkins and Kubernetes)."
       }
@@ -32,7 +32,7 @@
     },
     "linuxSSHPublicKey": {
       "type": "string",
-      "defaultValue": "ssh-rsa aC1yc2EAAAADAQABAAABgQDCjBm3nulk1jx3wKpDpg/AYh7QeSMVheiXtFTsLiEV0KS4v56LtllvtqXyxfJ+vI/L2mNv9rPhnVi32FCS5YcAOdMq1FZUMHTYrHVAbL/nlyDHu25LzXFMRQAj8henpEPatJ9oTwz9GXlyk0aqoc0bZ+uE4ZwMrOGqaaR7eFdHy8Rp/ul6147oKBDJGSf2TC4EpkgyuINIUagCwWpW8Tzzt36Ny8nB5CHVhgtEu2VskIg/ySDTWAwQWk/UHLJ1sMSf53V02sDSYoVBPpnWF1B2Emj63xkXBFgFlEP5sprx38tP1IO/tT93ngn+0tge9Ejy2/Yy3rJX5XWOYgKSsRFOPQqgAzamYKQbzZ36J6gk8mlpOYHdVKDpJxG9MKwlxV2Z/WkCryduByecvl8JKQtUwJzIk2zk1Vv3Irvrr8ca0APY3Ig/eu/inp9cqRc3wnmN8qYycsfhlQvET8FW+vx2nukZFy3f52outmuEt46gzgTbZIwix2/xpqJbj4YHl9E= janotijr@yahoo.com.br",
+      "defaultValue": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCoEUZz4aVHWgUKmBttWjsBv9zdKFsNHYYVu/2jLsYkX+nfIy+onBx28D/okAwBBLC9M7f24XYmMskNo2q6itDAA8hH42S4HiJLZWDH4oeXg6fb08KUd3cOV8Xh9DzrRilbtGv4uLTInOKGWQqOGuxqYemzdFBW2CJ2n5lPJvLd4SxP290hXzRQkSOpdv1eB/T8WcdOp3mcbYILBZihEFHAPzC+80NLr+JQW7KLbNveELMoz45b6LfZzW1UeMXa1k1+vXg340RNzZR0DIjGo8+WKbektKTQ9WOrXjSxOS/OKxo4JJWVonrIWdf/3BEz+Kp8jKR8ef2Rto+LFP32L2Pf adilsoncesar@Adilsons-MacBook-Pro.local",
       "metadata": {
         "description": "Configure all linux machines with the SSH RSA public key string. Your key should include three parts, for example 'ssh-rsa AAAAB...snip...UcyupgH azureuser@linuxvm'"
       }
