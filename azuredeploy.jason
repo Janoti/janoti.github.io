@@ -32,7 +32,7 @@
     },
     "linuxSSHPublicKey": {
       "type": "string",
-      "defaultValue": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDCjBm3nulk1jx3wKpDpg/AYh7QeSMVheiXtFTsLiEV0KS4v56LtllvtqXyxfJ+vI/L2mNv9rPhnVi32FCS5YcAOdMq1FZUMHTYrHVAbL/nlyDHu25LzXFMRQAj8henpEPatJ9oTwz9GXlyk0aqoc0bZ+uE4ZwMrOGqaaR7eFdHy8Rp/ul6147oKBDJGSf2TC4EpkgyuINIUagCwWpW8Tzzt36Ny8nB5CHVhgtEu2VskIg/ySDTWAwQWk/UHLJ1sMSf53V02sDSYoVBPpnWF1B2Emj63xkXBFgFlEP5sprx38tP1IO/tT93ngn+0tge9Ejy2/Yy3rJX5XWOYgKSsRFOPQqgAzamYKQbzZ36J6gk8mlpOYHdVKDpJxG9MKwlxV2Z/WkCryduByecvl8JKQtUwJzIk2zk1Vv3Irvrr8ca0APY3Ig/eu/inp9cqRc3wnmN8qYycsfhlQvET8FW+vx2nukZFy3f52outmuEt46gzgTbZIwix2/xpqJbj4YHl9E= janotijr@yahoo.com.br
+      "defaultValue": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDUQoFyIAyOyOx16M0kwPYQKsJpmoBICfC5ljRl9W29Y8/hq7+0z6FzlPlnHMPwD8hL6ym4Ym09QSurlyN7EYTU0jDhPm74axRnC6/aYpBFOZ1/K80ZXdlJATHyLSsQxvwAFB0tTnZYncekmL+rQy48NGVoGnLBP4qslPdwAfH4oql8I3d3Z0NKM7DiAYRu8fJrhZ8Vr2lnL7Z9em/ZH/At0ZqHvdeSzcLMgoV3eOZ9Q92eZ473b2X4FDE4sVbcW248vfuYOxJlclTxEkiTTmf9Ex1kC3orTV4xvtZnxQfbErekxVz11f4QxumGPy6dTcB3CDl45YlU2lhaNIGPNtrHeM7EsB0f0yiwZZ9KKHyQF6CzgJjY1gE+JQ/0TFaCJeR5DygBW6oG1mETG/JKwYRyGV8VD2i1w455fZM3BhQABjgUBuhapx3/h0+sg0lkZPUEyVvwPIps+j0aPVxK4DMMjn3YRJ3PXKaOWoh4joC1gIma2M+SR6HMntoTx8Y2XOc= generated-by-azure"
 ",
       "metadata": {
         "description": "Configure all linux machines with the SSH RSA public key string. Your key should include three parts, for example 'ssh-rsa AAAAB...snip...UcyupgH azureuser@linuxvm'"
