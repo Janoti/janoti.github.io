@@ -11,7 +11,7 @@
     },
     "spClientSecret": {
       "type": "securestring",
-      "defaultValue": "3eaa1577-ff99-490c-8684-d6e82c247886",
+      "defaultValue": "9f822293-10e8-4c31-9d33-e27b0f988140",
       "metadata": {
         "description": "Service Principal Client Secret used by Jenkins and Azure Container Service(AKS)."
       }
