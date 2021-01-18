@@ -39,7 +39,7 @@
     },
     "cosmosDbName": {
       "type": "string",
-      "defaultValue": "acscosmosdbdevproj",
+      "defaultValue": "cosmosdevproj",
       "metadata": {
         "description": "Name of the CosmosDB."
       }
