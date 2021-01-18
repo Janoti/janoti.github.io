@@ -265,7 +265,7 @@
         },
         "parameters": {
           "jenkinsVMSize": {
-            "value": "[parameters('kubernetesAgentVMSize')]",
+            "value": "[parameters('kubernetesAgentVMSize')]"
           },
           "jenkinsVMName": {
             "value": "[variables('jenkinsVMName')]"
