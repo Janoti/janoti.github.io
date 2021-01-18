@@ -264,6 +264,9 @@
           "contentVersion": "1.0.0.0"
         },
         "parameters": {
+        "jenkinsVMSize": {
+            "value": "[parameters('kubernetesAgentVMSize')]",
+          },
           "jenkinsVMName": {
             "value": "[variables('jenkinsVMName')]"
           },
